@@ -1,0 +1,14 @@
+.mainBanner{
+ display: flex;
+ flex-direction: column;
+ padding: 50px;
+ gap: 45px;
+}
+
+@media (max-width: 600px) {
+  .mainBanner{
+    display: flex;
+    padding: 20px !important;
+    gap: 30px;
+   }
+}

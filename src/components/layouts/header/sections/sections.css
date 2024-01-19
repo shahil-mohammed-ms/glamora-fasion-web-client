@@ -1,0 +1,33 @@
+.headLast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  gap: 20px;
+}
+.headMiddle{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex: 4;
+ 
+}
+.headMiddleMobile{
+  display: none;
+ 
+}
+
+
+@media (max-width: 600px) {
+  .headMiddleMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headMiddle{
+    display: none;
+   
+  }
+
+}
