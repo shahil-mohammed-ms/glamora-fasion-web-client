@@ -3,3 +3,15 @@ display: flex;
 height: 610px;
 
 }
+
+
+@media (max-width: 600px) {
+
+  .content{
+    display: flex;
+    flex-direction: column-reverse !important;
+    height: 1700px;
+    gap: 10px;
+    }
+
+}
