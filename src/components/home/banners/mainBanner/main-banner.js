@@ -1,3 +1,4 @@
+import CustomButtonMUIHover from '@/components/MUI-Components/custom/customButton'
 import './mainBanner.css'
 import MUIButton from '@/components/MUI-Components/Button'
 
@@ -13,7 +14,8 @@ function MainBanner() {
     
     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br/>
      luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
-    <span><MUIButton text={'VIEW COLLECTION'} btnvariant={'contained'} btnSize={'large'} btnColor={'primary'}/></span>
+    <span><CustomButtonMUIHover  btntext={'VIEW COLLECTION'} 
+               btnsize={'large'} ishover={true}/></span>
     </div>
   )
 }
