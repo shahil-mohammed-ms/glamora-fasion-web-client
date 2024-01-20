@@ -1,0 +1,27 @@
+.Quote{
+height: 400px;
+width: 100%;
+
+}
+.QuoteBox{
+  /* background-color: aqua; */
+display: flex;
+
+flex-direction: column;
+width: 60% !important;
+height: 100%;
+padding-left: 40px;
+}
+.QuoteBoxTop{
+height: 20%;
+
+}
+.QuoteBoxContent{
+height: 60%;
+
+
+}
+.QuoteBoxBottom{
+  height: 20%;
+
+}

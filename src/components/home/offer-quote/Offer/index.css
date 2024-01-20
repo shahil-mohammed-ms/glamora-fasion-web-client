@@ -1,0 +1,25 @@
+.Offer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 100%;
+ 
+}
+
+
+.OfferRight{
+  
+  height: 100%;
+  width: 50%;
+
+}
+
+.OfferRightImg{
+  position: absolute;
+  top: -300px; 
+  right: 110px;
+  height: 800px;
+
+
+}
