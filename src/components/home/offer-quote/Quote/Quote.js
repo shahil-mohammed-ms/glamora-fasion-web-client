@@ -15,7 +15,7 @@ function Quote() {
 </div>
 <div className='QuoteBoxContent' style={{textAlign: 'left'}} >
  
-  <p style={{fontSize:'35px',}}>
+  <p   style={{fontSize:'35px',}}>
   Proident Earum, Luctus Autem, Class Impedit Nostrud Pariatur, Perferendis Eiusmod Minima Perferendis, Itaque Recusandae Eligendi Facilisis.
   </p>
   
@@ -23,7 +23,7 @@ function Quote() {
 </div>
 <div className='QuoteBoxBottom' >
 <p style={{fontSize:'15px',color:'grey'}}>
- ------------------------------- Mark muller
+ -------------------- Mark muller
   </p>
 </div>
 </div>

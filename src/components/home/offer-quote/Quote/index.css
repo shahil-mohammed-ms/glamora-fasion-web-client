@@ -4,9 +4,7 @@ width: 100%;
 
 }
 .QuoteBox{
-  /* background-color: aqua; */
 display: flex;
-
 flex-direction: column;
 width: 60% !important;
 height: 100%;
@@ -23,5 +21,39 @@ height: 60%;
 }
 .QuoteBoxBottom{
   height: 20%;
+}
+@media (max-width: 600px) {
+  .Quote{
+    height: 200px;
+    width: 100%;
+    }
+    .QuoteBox{
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
+    height: 100%;
+    padding-left: 40px;
+    }
+   
+    .QuoteBoxTop{
+    height: 20%;
+    }
+    .QuoteBoxTop img{
+height: 30px !important;
+width: 30px !important;
 
+    }
+
+    .QuoteBoxContent{
+    height: 40%;
+    }
+    .QuoteBoxContent p{
+      font-size: 16px !important;
+          }
+    .QuoteBoxBottom{
+      height: 20%;
+    }
+    .QuoteBoxBottom p{
+      font-size: 10px !important;
+    }
 }
