@@ -1,0 +1,17 @@
+.FBottom{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40% !important;
+  padding: 10PX;
+}
+.FBottomContent{
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+}
+
+@media (max-width:600px){
+
+}
