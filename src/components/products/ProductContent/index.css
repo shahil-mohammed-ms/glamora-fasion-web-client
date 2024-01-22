@@ -1,0 +1,5 @@
+.ProductContents{
+  display: flex;
+  flex-direction: column;
+}
+

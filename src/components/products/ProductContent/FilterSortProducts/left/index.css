@@ -1,0 +1,17 @@
+.FSLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+width: 50%;
+}
+.FSLeftFilter{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.FSLeftText{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

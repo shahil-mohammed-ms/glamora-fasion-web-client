@@ -1,8 +1,11 @@
 import React from 'react'
+import './index.css'
+import ProductsMain from '@/components/products/products'
+
 
 function Products() {
   return (
-    <div>Products</div>
+   <ProductsMain/>
   )
 }
 
