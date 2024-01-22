@@ -15,3 +15,25 @@ width: 50%;
   align-items: center;
   justify-content: flex-start;
 }
+@media(max-width:600px){
+  .FSLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  width: 100%;
+  }
+  .FSLeftFilter{
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .FSLeftText{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+
+
+}

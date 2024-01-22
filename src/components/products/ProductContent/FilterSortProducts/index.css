@@ -4,3 +4,12 @@ flex-direction: row;
 width: 100%;
 }
 
+@media (max-width:600px){
+  .FilterSortProduct{
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    gap: 20px;
+    }
+
+}

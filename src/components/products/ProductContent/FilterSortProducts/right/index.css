@@ -16,3 +16,23 @@
   gap: 10px;
   flex: 1;
 }
+@media(max-width:600px){
+  .FSRight{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+  }
+  .FSRightSorting{
+    flex: 1 !important;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .FSRightIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+}
