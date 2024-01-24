@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import AboutContentRightBox from './AboutContentRightBox/AboutContentRightBox'
+import AboutContentRightBox from '../AboutContentRightBox/AboutContentRightBox'
 
 function AboutContent1() {
   return (

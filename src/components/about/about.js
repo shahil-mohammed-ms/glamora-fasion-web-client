@@ -4,6 +4,8 @@ import './index.css'
 import Header from '../layouts/header/header';
 import Offer from '../home/offer-quote/Offer/Offer';
 import AboutContent1 from './aboutContent1/AboutContent1';
+import AboutContentTitle from './aboutContentTitle/AboutContentTitle';
+import AboutFinalContent from './finalContent/AboutFinalContent';
 
 const overlayStyle = {
   content: '',
@@ -50,8 +52,8 @@ function AboutUser() {
       </div>
     <AboutContent1/>
     <Offer/>
-
-
+    <AboutContentTitle/>
+   <AboutFinalContent/>
       AboutUser
       
       </div>
