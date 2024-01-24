@@ -52,6 +52,7 @@ width: 100%;
   align-items: center;
   margin-top: 50px !important;
   padding-bottom: 70px;
+  padding-top: 25px;
   }
   .AboutFinalContentLeft{
     display: flex;
@@ -62,16 +63,15 @@ width: 100%;
     width: 100%;
   
   }
-  
-  
-  .AboutFinalContentRightImg{
-    width: 100%;
-    height: 500px;
-  }
   .AboutFinalContentRight{
-    /* height: 700px; */
+    display: flex;
+    justify-content: center;
     width: 100%;
   
+  }
+  .AboutFinalContentRightImg{
+    width: 90%;
+    height: 500px;
   }
   .AboutFinalContentLeftBox1{
   

@@ -6,6 +6,7 @@ import Offer from '../home/offer-quote/Offer/Offer';
 import AboutContent1 from './aboutContent1/AboutContent1';
 import AboutContentTitle from './aboutContentTitle/AboutContentTitle';
 import AboutFinalContent from './finalContent/AboutFinalContent';
+import Services from '../home/serviceHome/Services';
 
 const overlayStyle = {
   content: '',
@@ -54,6 +55,7 @@ function AboutUser() {
     <Offer/>
     <AboutContentTitle/>
    <AboutFinalContent/>
+   <Services  />
       AboutUser
       
       </div>
