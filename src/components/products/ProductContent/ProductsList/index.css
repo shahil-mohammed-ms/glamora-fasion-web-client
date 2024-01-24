@@ -1,0 +1,13 @@
+.FeaturedParent{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+   
+  }
+  
+  
+  @media (max-width:600px){
+  
+  
+  }

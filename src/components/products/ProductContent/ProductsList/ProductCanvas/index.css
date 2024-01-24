@@ -1,0 +1,20 @@
+.FeaturedProductChild{
+  height: 450px;
+  width: calc(24% - 10px) !important;
+  /* width: 250px; */
+  margin-top: 20px;
+  margin-left: 15px;
+  /* background-color: antiquewhite; */
+  }
+  
+  
+  
+  
+  @media (max-width:600px){
+    .FeaturedProductChild{
+      height: 300px !important;
+      width: calc(44% - 10px) !important;
+      margin-left: 20px;
+      }
+    
+  }

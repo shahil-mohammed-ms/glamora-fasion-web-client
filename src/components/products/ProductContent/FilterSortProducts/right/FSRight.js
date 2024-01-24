@@ -19,7 +19,7 @@ function BasicSelect() {
   return (
     <Box sx={{ minWidth: 120 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Default</InputLabel>
+        <InputLabel id="demo-simple-select-label"> Default</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
@@ -27,7 +27,7 @@ function BasicSelect() {
           label="Age"
           onChange={handleChange}
         >
-          <MenuItem value={10}>Default</MenuItem>
+          <MenuItem value={10}>sort by: Default</MenuItem>
           <MenuItem value={20} onClick={()=>console.log('hi')} >sort by price: high to low</MenuItem>
           <MenuItem value={30}>sort by price: low to high</MenuItem>
         </Select>

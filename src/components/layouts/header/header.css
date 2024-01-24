@@ -1,5 +1,5 @@
 .app-bar{
-height: 16%;
+height: 130px;
 display: flex;
 padding: 10px;
 align-items: center;
@@ -21,7 +21,9 @@ justify-content: center;
 } */
 
 @media (max-width: 600px) {
-
+  .app-bar{
+    height: 110px;
+  }
 
 
 }

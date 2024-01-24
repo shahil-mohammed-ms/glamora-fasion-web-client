@@ -2,12 +2,14 @@ import React from 'react'
 import  './index.css'
 import ProductsTitle from './Title/ProductsTitle'
 import FilterSortProduct from './FilterSortProducts/FilterSortProduct'
+import ProductList from './ProductsList/ProductsList'
+
 
 function ProductContent() {
   return (
     <div className='ProductContents' 
-    style={{backgroundColor:'#e8e8e8',width:'95%',height:'1000px',marginTop:'40px',borderTopLeftRadius:'25px',borderTopRightRadius:'25px',
-    paddingTop:'120px',alignItems:'center'
+    style={{backgroundColor:'#e8e8e8',width:'95%',marginTop:'40px',borderTopLeftRadius:'25px',borderTopRightRadius:'25px',
+    paddingTop:'120px',alignItems:'center',paddingBottom:'10px'
     }} >
       <div className='ProductContentSUB' style={{
         display:'flex',flexDirection:'column',width:'85%',height:'100%',
@@ -17,9 +19,8 @@ function ProductContent() {
         </span>
         <div style={{display:'flex',flexDirection:'row',width:'100%',paddingTop:'30px'}} >
           <FilterSortProduct/>
-
-
         </div>
+        <ProductList/>
 
 
 

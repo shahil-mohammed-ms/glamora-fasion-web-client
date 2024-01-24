@@ -1,8 +1,9 @@
+import AboutUser from '@/components/about/about'
 import React from 'react'
 
 function About() {
   return (
-    <div>about</div>
+   <AboutUser />
   )
 }
 
