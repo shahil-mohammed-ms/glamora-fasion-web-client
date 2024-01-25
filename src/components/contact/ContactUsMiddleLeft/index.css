@@ -1,0 +1,86 @@
+.ContactUsMiddleLeft{
+ 
+display: flex;
+flex-direction: column;
+width: 65%;
+height: 100%;
+padding-left: 30px;
+}
+.ContactUsQuestion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.ContactUsQuestionTitle{
+  display: inline-block;
+  font-size: 40px;
+  
+}
+.ContactUsQuestionBody{
+  display: inline-block;
+  width: 80%;
+}
+.ContactUsMiddleLeftForm{
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ContactUsMiddleLeftForm input{
+  margin-bottom: 20px;
+  /* width: 80%; */
+height: 35px;
+font-size: large;
+}
+.ContactUsMiddleLeftForm textarea{
+height: 200px;
+font-size: large;
+}
+.ContactUsMiddleLeftForm h3{
+  color: gray;
+}
+
+@media(max-width:600px){
+  .ContactUsMiddleLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    }
+    .ContactUsQuestion{
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
+      .ContactUsQuestionTitle{
+        display: inline-block;
+        font-size: 40px;
+        
+      }
+      .ContactUsQuestionBody{
+        display: inline-block;
+        width: 90%;
+      }
+      .ContactUsMiddleLeftForm{
+        padding-top: 30px;
+        padding-left: 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .ContactUsMiddleLeftForm input{
+        
+        /* width: 80%; */
+      height: 35px;
+      font-size: large;
+      }
+      .ContactUsMiddleLeftForm textarea{
+      height: 200px;
+      font-size: large;
+      }
+
+}
