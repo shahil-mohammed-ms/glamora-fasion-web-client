@@ -1,0 +1,4 @@
+.ProductItem{
+  display: flex;
+  flex-direction: column;
+}
