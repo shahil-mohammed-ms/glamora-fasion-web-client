@@ -1,0 +1,21 @@
+.ProductDetails{
+  padding-top: 20px;
+  padding-left: 30px;
+  gap: 20px;
+display: flex;
+flex-direction: column;
+width: 70% !important;
+background-color: antiquewhite;
+
+}
+.ProductDetails p{
+  display: inline-block;
+}
+.qtybtn{
+display: flex;
+flex-direction: row;
+
+}
+.btn{
+  padding-left: 30px;
+}
