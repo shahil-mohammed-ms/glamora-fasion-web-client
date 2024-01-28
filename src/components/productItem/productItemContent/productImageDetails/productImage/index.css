@@ -1,5 +1,14 @@
 .ProductImage{
 display: flex;
 flex-direction: column;
-width: 30%;
+width: 500px;
+}
+@media(max-width:600px){
+
+  .ProductImage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
 }

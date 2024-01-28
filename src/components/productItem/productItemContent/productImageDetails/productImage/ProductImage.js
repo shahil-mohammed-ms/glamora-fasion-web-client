@@ -7,7 +7,7 @@ function ProductImage() {
       backgroundImage:'url("/assets/main-banner-images/boxed-water-is-better-n1pULBOO24M-unsplash.jpg")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
-      width:'500px',
+      // width:'500px',
       height:'520px'
     }}>
       ProductImage

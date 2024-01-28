@@ -1,5 +1,15 @@
 .ProductImageDetails{
 display: flex;
 flex-direction: row;
-width: 100%;
+width: 85%;
+/* height: 100%; */
+}
+
+@media(max-width:600px){
+  .ProductImageDetails{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
 }

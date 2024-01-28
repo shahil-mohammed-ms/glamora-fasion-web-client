@@ -58,7 +58,7 @@ function ProductDetails() {
        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
        Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.
         </p></div>
-        <div>
+        <div style={{paddingLeft:'30px'}}>
           <DiscreteSliderLabel />
         </div>
 
@@ -86,7 +86,7 @@ function ProductDetails() {
 
 
         </div>
-        <hr/>
+        
         <div>
           <p style={{fontStyle:'italic'}}> category : Men's </p>
         </div>
