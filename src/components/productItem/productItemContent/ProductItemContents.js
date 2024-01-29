@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import ProductImageDetails from './productImageDetails/ProductImageDetails'
+import ProductReview from './productReview/ProductReview'
 
 function ProductItemContents() {
   return (
@@ -12,9 +13,10 @@ function ProductItemContents() {
       <ProductImageDetails  />
 
       {/* review part  */}
-<div>
+      <ProductReview />
+{/* <div>
 <h1>review</h1>
-</div>
+</div> */}
 
 
 
