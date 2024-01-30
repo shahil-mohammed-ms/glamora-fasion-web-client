@@ -1,0 +1,22 @@
+.CartContent{
+
+
+}
+.CartItemListTotal{
+  display: flex;
+  flex-direction: row;
+}
+.CartItemList{
+width: 65%;
+
+}
+.CartItemTotal{
+display: flex;
+flex-direction: column;
+width: 35%;
+}
+.tablebdy td{
+padding: 20px;
+
+
+}
